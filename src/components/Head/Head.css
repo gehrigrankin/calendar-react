@@ -1,9 +1,16 @@
 .Head {
     padding: 1rem;
+    padding-bottom: 0;
     border: 1px grey solid;
+    width: 100%;
 }
 
 .daysOfWeek .column{
-    border: 1px #eee solid;
-    border-bottom: none;
+    margin: 0 1rem;
+
+    height: 50%;
+}
+
+.daysOfWeek {
+    bottom: 0;
 }
